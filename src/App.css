@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  height: 80vh;
+  gap: 80px;
+  padding: 0 ;
+}
+
+.div1{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.div1 h1{
+  font-size: 45px;
+}
+.div1 p{
+  line-height: 25px;
+  font-size: 14px;
+}
+
+
+.div2{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.div3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(248, 32%, 49%);
+  box-shadow: 0 7px 0 hsla(249, 10%, 26%, 0.2);
+  width: 500px;
+  height: 50px;
+  border-radius: 10px;
+}
+.div3 p{
+  font-size: 15px;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 7px 0 hsla(249, 10%, 26%, 0.3);
+  width: 500px;
+  height: 450px;
+  border-radius: 10px;
+  transition: gap 0.5s ease-in-out;
+}
+form input{
+  outline: none;
+  border: 1px solid hsl(246, 25%, 77%);
+  width: 430px;
+  height: 50px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+form input:focus{
+  border: 1.5px solid hsl(249, 10%, 26%);
+}
+form input::placeholder{
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+form button{
+  border: none;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  width: 450px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 15px;
+  transition: background-color 0.5s ease-in-out;
+}
+form button:hover{
+  transform: scale(1.05);
+  background-color: hsl(154, 80%, 60%);
+}
+form p{
+  color: hsl(246, 25%, 77%);
+  font-size: 12px;
+}
+form a{
+  text-decoration: none;
+  color: hsl(0, 100%, 74%);
+}
+.formp,
+.formps{
+  position: relative;
+  font-style: italic;
+  font-size: 15px;
+  right: -100px;
+  color: hsl(0, 100%, 74%);
+}
+.formps{
+  right: -50px;
+}
+footer p{
+  font-size: 15px;
+}
+footer a{
+  text-decoration: none;
+  color: hsl(248, 32%, 49%);
+  transition: 0.5s ease-in-out;
+}
+footer a:hover{
+  text-decoration: underline;
+  color: white;
+}
